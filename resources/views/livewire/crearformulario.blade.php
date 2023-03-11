@@ -45,7 +45,7 @@
                                             </div>
                                             <div class="w-full py-2">
                                                 <label for="tipo_org" class="block mb-2 text-sm font-medium text-gray-900 ">¿Qué tipo de organización social y solidaria es? (Por ejemplo, cooperativa, asociación, fundación, etc.)</label>
-                                                <select wire:model.lazy="tipo_org" id="tipo_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select wire:model.lazy="tipo_org" id="tipo_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                 <option  value="" class="select-none">--Seleccione--</option>
                                                 <option>Cooperativa</option>
                                                 <option>Pre-coperativa</option>
@@ -69,7 +69,7 @@
                                         <div class="flex flex-col">
                                             <div class="w-full py-2">
                                                 <label for="sect_economic" class="block mb-2 text-sm font-medium text-gray-900 ">¿En qué sector económico opera su organización?</label>
-                                                <select  wire:model.lazy="sect_economic" id="sect_economic" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select  wire:model.lazy="sect_economic" id="sect_economic" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                     <option  value="" class="select-none">--Seleccione--</option>
                                                     <option>Agricultura</option>
                                                 <option>Sistema financiero</option>
@@ -90,7 +90,7 @@
                                             </div>
                                             <div class="w-full py-2">
                                                 <label for="situac_geo" class="block mb-2 text-sm font-medium text-gray-900 ">¿Situación geográfica de la organización?</label>
-                                                <select  wire:model.lazy="situac_geo" id="situac_geo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select  wire:model.lazy="situac_geo" id="situac_geo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                     <option value="" class="select-none">--Seleccione--</option>
                                                     <option>Rural</option>
                                                 <option>Urbana</option>
@@ -103,7 +103,7 @@
                                             </div>
                                             <div class="w-full py-2">
                                                 <label for="ubic_geo" class="block mb-2 text-sm font-medium text-gray-900 ">¿Cuál es la ubicación geográfica de la organización?</label>
-                                                <select  wire:model.lazy="ubic_geo" id="ubic_geo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select  wire:model.lazy="ubic_geo" id="ubic_geo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                     <option value="" class="select-none">--Seleccione--</option>
                                                     <option>Barrial - Comunitaria </option>
                                                 <option>Comuna o localidad</option>
@@ -123,7 +123,7 @@
 
                                             <div class="w-full py-2">
                                                 <label for="taman_org" class="block mb-2 text-sm font-medium text-gray-900 ">¿Determina el tamaño de la organización en función de sus activos totales? </label>
-                                                <select wire:model.lazy="taman_org" id="taman_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select wire:model.lazy="taman_org" id="taman_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                     <option value="" class="select-none">--Seleccione--</option>
                                                     <option>Micro</option>
                                                 <option>Pequeño</option>
@@ -134,7 +134,7 @@
                                             </div>
                                             <div class="w-full py-2">
                                                 <label for="taman_num_org" class="block mb-2 text-sm font-medium text-gray-900 ">¿Clasifica el tamaño de la organización en función del número de trabajadores que tiene?</label>
-                                                <select wire:model.lazy="taman_num_org" id="taman_num_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select wire:model.lazy="taman_num_org" id="taman_num_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                 <option value="" class="select-none">--Seleccione--</option>
                                                 <option>Micro</option>
                                                 <option>Pequeño</option>
@@ -146,12 +146,12 @@
                                         </div>
                                         <div class="w-full py-2">
                                             <label for="empleados_h_org" class="block mb-2 text-sm font-medium text-gray-900 ">¿Cuál es el número actual de trabajadores hombres en la organización?</label>
-                                            <input wire:model.lazy="empleados_h_org" type="number" name="empleados_h_org" id="empleados_h_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                            <input wire:model.lazy="empleados_h_org" type="number" name="empleados_h_org" id="empleados_h_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                             @error('empleados_h_org') <span class="text-xs text-red-500 mt-1">{{ $message }}</span> @enderror
                                         </div>
                                         <div class="w-full py-2">
                                             <label for="empleados_f_org" class="block mb-2 text-sm font-medium text-gray-900 ">¿Cuál es el número actual de trabajadoras mujer en la organización?</label>
-                                            <input wire:model.lazy="empleados_f_org" type="number" name="empleados_f_org" id="empleados_f_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                            <input wire:model.lazy="empleados_f_org" type="number" name="empleados_f_org" id="empleados_f_org" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                             @error('empleados_f_org') <span class="text-xs text-red-500 mt-1">{{ $message }}</span> @enderror
                                         </div>
 
@@ -239,7 +239,7 @@
                                                 <div class="flex flex-col mb-4">
 
                                                     <label for="pais" class="block mb-2 text-sm font-medium text-gray-900 ">Pais</label>
-                                                <select wire:model.lazy="pais" id="pais" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                <select wire:model.lazy="pais" id="pais" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                                 <option  value="" class="select-none">--Seleccione--</option>
                                                 <option>Argentina</option>
                                                 <option>Argentina</option>

@@ -42,10 +42,9 @@ class Homeorg extends Component
             ->when($this->sector_econmico, function($query){
                 $query->where('sect_economic', $this->sector_econmico);
             })
+            ->paginate(10);
 
-
-            ->paginate(20);
-
+           // dd($formulario);
 
         return view('livewire.homeorg', ['formulario' => $formulario
         ] );

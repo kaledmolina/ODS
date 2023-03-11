@@ -274,10 +274,10 @@ class Crearformulario extends Component
 
             // Retornar un arreglo con los índices de diversidad
             return [
-                'indiceDiversidadGenero' => $indiceDiversidadGenero,
-                'indiceDiversidadGeneracional' => $indiceDiversidadGeneracional,
-                'porcentajeDiscapacitados' => $porcentajeDiscapacitados,
-                'indiceDiversidadGeografica' => $indiceDiversidadGeografica
+                'indiceDiversidadGenero' =>  round($indiceDiversidadGenero,0),
+                'indiceDiversidadGeneracional' => round( $indiceDiversidadGeneracional,0),
+                'porcentajeDiscapacitados' =>  round($porcentajeDiscapacitados,0),
+                'indiceDiversidadGeografica' =>  round($indiceDiversidadGeografica,0)
             ];
         }
 
@@ -333,10 +333,10 @@ class Crearformulario extends Component
 
             // Retorna un arreglo con los dos índices de equidad
             return [
-                'indiceEquidadSeguridadSocial' => $indiceEquidadSeguridadSocial,
-                'indiceEquidadSalarial' => $indiceEquidadSalarial,
-                'porcentajeAfiliadosSalud' => $porcentajeAfiliadosSalud,
-                'porcentajeAfiliadosPension' => $porcentajeAfiliadosPension,
+                'indiceEquidadSeguridadSocial' =>round($indiceEquidadSeguridadSocial,0),
+                'indiceEquidadSalarial' => round($indiceEquidadSalarial,0),
+                'porcentajeAfiliadosSalud' =>round( $porcentajeAfiliadosSalud,0),
+                'porcentajeAfiliadosPension' => round($porcentajeAfiliadosPension,0),
             ];
         }
 

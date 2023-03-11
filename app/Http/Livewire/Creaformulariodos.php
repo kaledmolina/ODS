@@ -141,7 +141,7 @@ class Creaformulariodos extends Component
 
         // Devolver la puntuación final
         return [
-            'puntuacionTotalasociatividad' => $puntuacionTotalasociatividad,
+            'puntuacionTotalasociatividad' =>round( $puntuacionTotalasociatividad,0),
         ];
     }
 
@@ -157,7 +157,7 @@ class Creaformulariodos extends Component
 
         // Devolver la puntuación final
         return  [
-            'puntuacionFinalcalid' => $puntuacionFinalcalid,
+            'puntuacionFinalcalid' =>round( $puntuacionFinalcalid,0),
 
         ];
     }
@@ -176,7 +176,7 @@ class Creaformulariodos extends Component
 
         // Devolver la puntuación final
         return [
-            'puntuacionTotalCapacidad' => $puntuacionTotalCapacidad,
+            'puntuacionTotalCapacidad' => round($puntuacionTotalCapacidad,0),
         ];
     }
 
@@ -190,7 +190,7 @@ class Creaformulariodos extends Component
 
         // Devolver la puntuación final
         return [
-            'puntuacionTotalcapacidadmer' => $puntuacionTotalcapacidadmer,
+            'puntuacionTotalcapacidadmer' =>round( $puntuacionTotalcapacidadmer,0),
         ];
     }
     function calcularPuntuacioncapacidadprod() {
@@ -204,7 +204,7 @@ class Creaformulariodos extends Component
 
         // Devolver la puntuación final
         return [
-            'puntuacionTotalcapacidadprod' => $puntuacionTotalcapacidadprod,
+            'puntuacionTotalcapacidadprod' => round($puntuacionTotalcapacidadprod,0),
         ];
     }
     function calcularPuntuacioncapacidadservi() {
@@ -218,7 +218,7 @@ class Creaformulariodos extends Component
 
         // Devolver la puntuación final
         return [
-            'puntuacionTotalcapacidadservi' => $puntuacionTotalcapacidadservi,
+            'puntuacionTotalcapacidadservi' =>round( $puntuacionTotalcapacidadservi,0),
 
         ];
         }

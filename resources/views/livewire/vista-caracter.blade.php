@@ -2,7 +2,7 @@
             @foreach ( $datos as $formulario )
 
 
-                                        <div class="bg-white dark:bg-gray-900">
+                                        <div class="bg-white ">
                                         <div class="container px-4 mx-auto">
                                             <div class="xl:items-center xl:-mx-8 xl:flex">
                                                 <div class="flex flex-col items-center xl:items-start xl:mx-8">
@@ -82,35 +82,35 @@
                                                                     <p class="text-sm font-medium text-gray-500 dark:text-gray-400">1,745 global ratings</p>
                                                                     <div class="flex items-center mt-4">
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">Diversidad Genero</span>
-                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded ">
                                                                             <div class="h-5 bg-yellow-400 rounded" style="width: {{$formulario->indiceDiversidadGenero}}%"></div>
                                                                         </div>
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">{{$formulario->indiceDiversidadGenero}}%</span>
                                                                     </div>
                                                                     <div class="flex items-center mt-4">
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">Equidad  Salarial </span>
-                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded ">
                                                                             <div class="h-5 bg-yellow-400 rounded" style="width:{{$formulario->indiceEquidadSalarial}}%"></div>
                                                                         </div>
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">{{$formulario->indiceEquidadSalarial}}%</span>
                                                                     </div>
                                                                     <div class="flex items-center mt-4">
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">Promedio en Salud</span>
-                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded ">
                                                                             <div class="h-5 bg-yellow-400 rounded" style="width:{{$formulario->porcentajeAfiliadosSalud}}%"></div>
                                                                         </div>
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">{{$formulario->porcentajeAfiliadosSalud}}%</span>
                                                                     </div>
                                                                     <div class="flex items-center mt-4">
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">Promedio en Pension</span>
-                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded ">
                                                                             <div class="h-5 bg-yellow-400 rounded" style="width:{{$formulario->porcentajeAfiliadosPension}}%"></div>
                                                                         </div>
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">{{$formulario->porcentajeAfiliadosPension}}%</span>
                                                                     </div>
                                                                     <div class="flex items-center mt-4">
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">Promedio Minusvalia</span>
-                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                                                                        <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded ">
                                                                             <div class="h-5 bg-yellow-400 rounded" style="width: {{$formulario->porcentajeDiscapacitados}}%"></div>
                                                                         </div>
                                                                         <span class="text-sm font-medium text-blue-600 dark:text-blue-500">{{$formulario->porcentajeDiscapacitados}}%</span>

@@ -15,8 +15,8 @@
                 <div class="xl:mx-auto xl:container  xl:px-20 md:px-6  px-4 py-12"> <br><br>
                     <div class="lg:flex items-center  justify-center lg:space-x-12 2xl:space-x-6">
                         <div class="mb-10">
-                            <p class="lg:text-4xl text-3xl font-extrabold leading-9 text-gray-800 dark:text-white">¡Bienvenidos a nuestra plataforma para organizaciones de economía social y solidaria!</p>
-                            <p class="text-lg leading-7 text-gray-600 dark:text-gray-200 mt-4 xl:w-7/12 w-full">Nos complace invitarlos a participar en el cuestionario "Caracterizacion" y "Dinámica Asociativa", que forma parte del Proyecto "Observatorio del impacto social, económico y ambiental de las organizaciones, generando un sistema permanente y público de información. Para lograrlo, necesitamos su colaboración en la primera parte del cuestionario, que se enfoca en la caracterización de su organización.</p>
+                            <p class="lg:text-4xl text-3xl font-extrabold leading-9 text-gray-800 ">¡Bienvenidos a nuestra plataforma para organizaciones de economía social y solidaria!</p>
+                            <p class="text-lg leading-7 text-gray-600  mt-4 xl:w-7/12 w-full">Nos complace invitarlos a participar en el cuestionario "Caracterizacion" y "Dinámica Asociativa", que forma parte del Proyecto "Observatorio del impacto social, económico y ambiental de las organizaciones, generando un sistema permanente y público de información. Para lograrlo, necesitamos su colaboración en la primera parte del cuestionario, que se enfoca en la caracterización de su organización.</p>
 
                             <div class="mt-6 md:mt-10 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:mt-6 2xl:mt-12">
                                 <div class="flex items-center">
@@ -27,7 +27,7 @@
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
                                         <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Tiempo</h2>
-                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 dark:text-gray-200">Su participación es fundamental para lograr resultados y contribuir al avance y desarrollo de las organizaciones. El tiempo estimado es de 45 minutos.</p>
+                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">Su participación es fundamental para lograr resultados y contribuir al avance y desarrollo de las organizaciones. El tiempo estimado es de 45 minutos.</p>
                                     </div>
                                 </div>
                                 <div class="flex items-center">
@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
                                         <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Sr Usuario</h2>
-                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 dark:text-gray-200">Sus datos serán tratadas con la máxima confidencialidad y los resultados serán utilizados únicamente para fines estadísticos. </p>
+                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">Sus datos serán tratadas con la máxima confidencialidad y los resultados serán utilizados únicamente para fines estadísticos. </p>
                                     </div>
                                 </div>
                                 <div class="flex items-center">
@@ -49,7 +49,7 @@
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
                                         <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Su participación</h2>
-                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 dark:text-gray-200">Agradecemos de antemano su colaboración y su tiempo para completar este cuestionario.</p>
+                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">Agradecemos de antemano su colaboración y su tiempo para completar este cuestionario.</p>
                                     </div>
                                 </div>
                                 <div class="flex items-center">
@@ -60,7 +60,7 @@
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
                                         <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Metas</h2>
-                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 d dark:text-gray-200">El objetivo es medir el impacto economico social y solidario con respecto a los Objetivos de Desarrollo Sostenible</p>
+                                        <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">El objetivo es medir el impacto economico social y solidario con respecto a los Objetivos de Desarrollo Sostenible</p>
                                     </div>
 
                                 </div>

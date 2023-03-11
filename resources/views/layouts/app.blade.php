@@ -45,18 +45,18 @@
 
                     <div class="my-6 text-base text-color f-f-l">
                         <ul class="md:flex items-center">
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none dark:text-white  focus:underline hover:text-gray-500">About </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none dark:text-white  focus:underline hover:text-gray-500">Features </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none dark:text-white  focus:underline hover:text-gray-500">Careers </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none dark:text-white  focus:underline hover:text-gray-500">Help </a></li>
-                            <li class="cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline dark:text-white hover:text-gray-500">Privacy Policy </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none   focus:underline hover:text-gray-500">About </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none   focus:underline hover:text-gray-500">Features </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none   focus:underline hover:text-gray-500">Careers </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none   focus:underline hover:text-gray-500">Help </a></li>
+                            <li class="cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline  hover:text-gray-500">Privacy Policy </a></li>
                         </ul>
                     </div>
                     <div class="text-sm text-color mb-10 f-f-l">
-                        <p tabindex="0" class="dark:text-white focus:outline-none">© 2023 Prodify. All rights reserved</p>
+                        <p tabindex="0" class=" focus:outline-none">© 2023 Prodify. All rights reserved</p>
                     </div>
                 </div>
-                <div class="w-9/12 h-0.5 bg-gray-100 dark:bg-gray-700 rounded-full"></div>
+                <div class="w-9/12 h-0.5 bg-gray-100  rounded-full"></div>
 
             </div>
         </div>

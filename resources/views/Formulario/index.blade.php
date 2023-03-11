@@ -26,7 +26,7 @@
                                         </div>
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
-                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Tiempo</h2>
+                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 ">Tiempo</h2>
                                         <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">Su participación es fundamental para lograr resultados y contribuir al avance y desarrollo de las organizaciones. El tiempo estimado es de 45 minutos.</p>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@
                                         </div>
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
-                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Sr Usuario</h2>
+                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 ">Sr Usuario</h2>
                                         <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">Sus datos serán tratadas con la máxima confidencialidad y los resultados serán utilizados únicamente para fines estadísticos. </p>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
-                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Su participación</h2>
+                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 ">Su participación</h2>
                                         <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">Agradecemos de antemano su colaboración y su tiempo para completar este cuestionario.</p>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                         </div>
                                     </div>
                                     <div class="flex items-start flex-col ml-6 pt-8">
-                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 dark:text-white">Metas</h2>
+                                        <h2 class="text-lg font-semibold leading-4 text-gray-800 ">Metas</h2>
                                         <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600 ">El objetivo es medir el impacto economico social y solidario con respecto a los Objetivos de Desarrollo Sostenible</p>
                                     </div>
 

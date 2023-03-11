@@ -237,7 +237,7 @@ class Creaformulariodos extends Component
             // calcular la puntuación global asociativa como el porcentaje del promedio respecto al valor máximo (10)
             $puntuacionGlobalAsociativa = $promediopuntuacionGlobalasociat * 10;
             // redondear la puntuación global asociativa a dos decimales
-            $puntuacionGlobalAsociativa = round($puntuacionGlobalAsociativa, 2);
+            $puntuacionGlobalAsociativa = round($puntuacionGlobalAsociativa, 0);
 
 
 

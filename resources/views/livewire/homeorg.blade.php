@@ -2,7 +2,7 @@
     <livewire:filtrarorg/>
     <div class="py-12">
         <div class="max-w-7xl mx-auto">
-            <h3 class="font-extrabold text-4xl text-gray-700 mb-12">Organizaciones registradas</h3>
+            <h3 class="font-extrabold text-4xl text-gray-700 mb-12">Organizaciones registradas TESTEOO</h3>
                     <div class="bg-white shadow-sm rounded-lg p-6 divide-y Idivide-gray-200 " >
                         @forelse ($formulario as $datos)
 
